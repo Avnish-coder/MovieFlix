@@ -1,0 +1,111 @@
+.Trending-section{
+    height: 80vh;
+}
+
+.trending-title{
+        font-size: 4rem;
+        text-align: center;
+        margin-bottom: 0.5rem;
+}
+
+.card{
+    position: relative;
+}
+
+.titling{
+    /* color: red; */
+    position: absolute;
+    font-size: 2rem;
+    font-weight: 2rem;
+    top: 3vh;
+    right: 4vw;
+    margin-left: 7vh;
+}
+
+.card-img-top{
+    height : "40vh";
+    width : "27.70vh";
+    border-radius: 10px;
+}
+
+.mainBoard{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    /* background-color: red; */
+}
+
+.margin-bottom-card{
+    height: 40vh;
+    width: 16vw;
+    border-radius: 50%;
+    margin-left: 3.5rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+
+    
+}
+
+.button{
+    top: 30vh;
+    position: absolute;
+    left: 1vw;
+    
+}
+
+.iButton{
+    padding-top: 0.7rem;
+    height: 3rem;
+    width: 14rem;
+    background-color: aliceblue;
+    border: none;
+}
+
+.ATF-name{
+    border-radius: 0.5rem;
+    position: absolute;
+    height: 42vh;
+    width: 100%;
+      background-image: linear-gradient(rgba(245,70,66, 0.75), rgba(8,83,156, 0.75));
+
+}
+
+.pagination{
+    margin-top: 6rem;
+    justify-content: center;
+    align-items: center;
+    /* background-color: brown; */
+    height:10vh;
+}
+
+@media screen and (max-width : 400px){
+    .nav{
+        height: 5vh;
+        
+    }
+    
+    .wrapper{
+        height: 5vh;
+        width: 85vw;
+    
+    }
+    
+    .nameOS{
+        font-size:  2rem;
+    }   
+    
+    .fav{
+        font-size: 1.5rem;
+    }
+
+    .iButton{
+        width: 3rem;
+    }
+
+    .cardClass{
+        width: 15vh;
+    }
+}
+
+

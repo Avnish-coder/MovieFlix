@@ -1,0 +1,33 @@
+.nav{
+    height: 10vh;
+    /* width: auto; */
+    /* background-color: orange; */
+    display: flex;
+    
+}
+
+.wrapper{
+    height: 10vh;
+    width: 30vw;
+    display: flex;
+    /* background-color: blue; */
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.nameOS{
+    /* height: 80%;
+    /* background-color: red; */
+    font-size:  3.5rem;
+    color: brown;
+    justify-content: center;
+    text-decoration: none;
+}   
+
+.fav{
+    margin-top: 0.5px;
+    font-size: 2.9rem;
+    align-content: center;
+    text-decoration: none;
+}

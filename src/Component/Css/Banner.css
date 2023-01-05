@@ -1,0 +1,53 @@
+/* .mCard{
+    height: 350px;
+    width:  270px;
+    background-color: red;
+    
+} */
+.card-img-top{
+    height: 80vh;
+    position: relative;
+}
+
+.card-tTitle{
+    font-size: 5rem;
+    position: absolute;
+    top: 49vh;
+    /* color: chocolate; */
+    left: 3vh;
+}
+
+.card-TempText{
+    font-size: 20px;
+    position: absolute;
+    top: 60vh;
+    height: 10rem;
+    overflow: auto;
+    width: 70vw;
+    text-align: justify;
+    left: 3vh;
+}
+
+
+@media screen and (max-width : 400px) {
+    .card-img-top{
+        height: 30vh;
+
+    }
+    
+    .card-tTitle{
+        font-size: 1.5rem;
+        top: 15vh;
+        /* color: chocolate; */
+        left: 3vh;
+    }
+    
+    .card-TempText{
+        font-size: 10px;
+        top: 20vh;
+        height: 4rem;
+        overflow: auto;
+        width: 70vw;
+        left: 3vh;
+    } 
+}
